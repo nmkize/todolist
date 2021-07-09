@@ -1,0 +1,114 @@
+
+/* common styles */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(grey, #DC281E);
+  font-family: sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: lightgoldenrodyellow;
+}
+
+ul {
+  list-style-type: none;
+}
+ul li {
+  margin: 0px 0px 20px;
+}
+
+
+
+/* common style ends */
+
+.container {
+  min-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: 3rem;
+}
+
+
+.todo-form {
+  margin: 140px 0px;
+}
+
+.todo-input {
+  width: 450px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.add-button {
+  background-color: darkgrey;
+  color: lightcyan;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 7px;
+  font-size: 1.2rem;
+}
+
+
+/* todo-items */
+.todo-items {
+  min-width: 350px;
+}
+
+/* list with class="item" */
+.item {
+  background-color: lightcyan;
+  padding: 10px;
+  font-size: 1.1rem;
+}
+
+.item:first-child {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.item:last-child {
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.delete-button {
+  float: right;
+  background-color: floralwhite;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  padding: 2px 5px;
+  margin-left: 10px;
+  font-size: 1.1rem;
+  font-weight: 550;
+}
+
+.checked { 
+  text-decoration: line-through;
+}
+
